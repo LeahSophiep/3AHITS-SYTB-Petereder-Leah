@@ -29,7 +29,7 @@ Daraufhin die Seite neuladen. Hier sieht man daraufhin die gesamten Netzwerkanfr
 
 Danach sucht man in den Netzwerkanfragen nach der CSS Datei, das kann man filtern, indem man oben statt `All` auf `CSS` klickt, somit erscheinen nur die CSS-Dateien. In der Google Chrome Startseite sind das `4 CSS-Dateien`. Ich nehme die mit der größten Größe.
 
-Danach einen rechtsklick auf diese CSS-Datei machen und dann auf `Copy` und dann auf `Copy as cURL`. Daraufhin öffnet man Kali und das Terminal und fügt das kopierte ein. Daraufhin erscheint dieser command:
+Danach einen rechtsklick auf die gewählte CSS-Datei machen und dann auf `Copy` und dann auf `Copy as cURL`. Daraufhin öffnet man Kali und das Terminal und fügt das kopierte ein. Daraufhin erscheint dieser command:
 ```
 ──(kali㉿kali)-[~]
 └─$ curl 'https://www.gstatic.com/og/_/ss/k=og.qtm.vjyYcS7rQwo.L.W.O/m=qmd,qcwid,d_b_gm3,d_wi_gm3,d_lo_gm3/excm=qaaw,qabr,qadd,qaid,qalo,qebr,qein,qhaw,qhawgm3,qhba,qhbr,qhbrgm3,qhch,qhchgm3,qhga,qhid,qhidgm3,qhin,qhlo,qhlogm3,qhmn,qhpc,qhsf,qhsfgm3,qhtt/d=1/ed=1/ct=zgms/rs=AA2YrTtEJMqNNb04d2z46AITatL-Y66Oww' \

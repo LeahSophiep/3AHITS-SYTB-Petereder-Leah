@@ -73,7 +73,7 @@ Hier auch wieder Chrome starten, danach mit F12 die Developer Tools öffnen und 
 Dann das `Notenmanagement` öffnen und einloggen. Die Netzwerkanfragen sollten währenddessen geöffnet sein. Danach auf eine Note klicken. Man sieht daraufhin viele Netzwerkanfragen.
 
 Dann statt All auf `Fetch/XHR` klicken. Jetzt sieht man nur die `API-Requests`.
-Den Request, den wir suchen ist `2966`. Das wieder `Copy as cURL` und in kali linux reinkopieren. Der Befehl sieht dann so aus:
+Den JSON-Request, den ich nehme ist `2966`. Das wieder `Copy as cURL` und in kali linux reinkopieren. Der Befehl sieht dann so aus:
 ```
 MUlnB1t4jppFgwxht8oFLgERrM68YKOgIFaFI2CN5eUEV9mFMNtXIqxxWCNB6EtJ9w-twgweURJLMN8xocKnXiRiIRFTFxJ_nTfXHNl90gDsjERqjRwKD4Y-lGSXI2AjyyA08USjECCDbupLiSMBr1Ew8HzJciv69OiZ3QcKjALHobdFMJCf6WF1Av481XAjSmkXz65SDMVkLpEBU9b6Or4trMGUmCbuvp77Qkzwg69myf--gIhBH89Mk1D3ejMOSOg55EeKuC7So4Bt229bxIKHACEpKdcFULIV4ZkjqdkI1CvztZIv_4aLwjQzBNzjkoZaTkHoZ1CQuSitgtW6u6RR7g72mncV4CEgTf73dirL77TLGyHgO6TnMp_NpzwX5a5-d56KADJYJ1_c66pKB9Klja9pUqrRT3vKfPIDXuCxRZGFKJaRP4hqRYbeZBm62EVyjaC9HiQ' \ 
   -H 'cache-control: no-cache' \
